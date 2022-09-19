@@ -1,11 +1,11 @@
 import React, { useState } from 'react'
 import Pagination from '../Pagination/Pagination';
-import ProjectCard from '../projectCard/ProjectCard';
+import ProjectCard from '../RepositoryCard/RepositoryCard';
 import './response.css';
-import Profile from '../Profile/Profile';
+import Profile from '../UserProfile/Profile';
 
 
-function Response({repos,user}) {
+function Response({repos,user,searchInput}) {
     
     const [showPerPage,setShowPerPage] = useState(8);
     const [pagination,setPagination] = useState({

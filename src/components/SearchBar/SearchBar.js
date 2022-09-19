@@ -35,14 +35,12 @@ function SearchBar() {
   return (
     <>
       <div className="search">
-        <form>
           <TextField className="search-input" required type="text" value={searchInput} id="standard-basic"  onChange={handleChange} label="GitHub user name" variant="standard" />
           <Button onClick={handleClick} type="submit" variant="contained">Search</Button>
-        </form>
         
       </div>
       
-      {searchInput !== "" && (<Response repos={data} user={searchInput} />)}
+      {searchInput !== "" && (<Response repos={data} user={searchInput} searchInput={searchInput} />)}
       
 
     </>

@@ -1,5 +1,5 @@
 import React from "react";
-import "./projectCard.css";
+import "./repositoryCard.css";
 import LanguageIcon from "@mui/icons-material/Language";
 import { CCard,CCardBody,CCardTitle,CCardText } from '@coreui/react';
 
