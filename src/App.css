@@ -1,0 +1,11 @@
+.App {
+
+  margin: 100px 100px;
+}
+@media only screen and (max-width: 720px){
+  .App {
+
+    margin: 10px 10px;
+  }
+  
+}

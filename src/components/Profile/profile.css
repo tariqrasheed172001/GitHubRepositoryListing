@@ -1,0 +1,48 @@
+.header{
+
+
+    
+}
+.user-name{
+    font-size: 30px;
+    margin-top: 10rem;
+    margin-bottom: 20px;
+    color: black;
+    border-radius: 10px;
+}
+.avatar{
+    border-radius: 50%;
+    height: 300px;
+    margin-top: 2rem;
+    color: black;
+    margin-right: 10rem;
+}
+.profile > a{
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+    margin-right: 4px;
+    color: black;
+    cursor: pointer;
+}
+.image{
+    display: flex;
+    align-items: left;
+    justify-content: start;
+    margin-bottom: 2rem;
+}
+.repos{
+    font-size: 25px;
+    color: black;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+@media only screen and (max-width: 720px){
+    .avatar{
+        height: 150px;
+        margin-top: 1rem;
+    }
+    .image{
+        display: block;
+    }
+  }
