@@ -1,7 +1,26 @@
+# This repository contains solution of coding challenge which was given by company Fyle.
+  ->I completed this challenge in 10 hours.
+  
+# Deployment
+
+  ->Deployed on VERCEL
+    Live url -> https://git-hub-repository-listing-git-master-tariqrasheed172001.vercel.app/
+    
 # References & Functionality
+
   API Documentation https://docs.github.com/en/rest/reference
   
-# Getting Started with Create React App
+# Reusable components
+  ->searchBar
+  ->Response
+  ->RepositoryCard
+  ->Pagination
+  
+# Assumptions
+  -> Pagination
+     Number of repositories per page are assumed to be 8
+
+# Getting Started with Create React App,run and check things on local
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
