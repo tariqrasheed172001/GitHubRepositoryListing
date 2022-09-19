@@ -1,8 +1,4 @@
-.header{
 
-
-    
-}
 .user-name{
     font-size: 30px;
     margin-top: 10rem;
@@ -44,5 +40,8 @@
     }
     .image{
         display: block;
+    }
+    .user-name{
+        margin-top: 1.5rem;
     }
   }
